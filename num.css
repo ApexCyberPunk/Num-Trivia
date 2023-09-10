@@ -33,11 +33,44 @@ body {
 .container input, .container button {
     font-size: 1.25em;
     outline: rgb(121, 121, 4);
-    border: 4px solid rgb(211, 211, 17) ;
+    border: 5px solid rgb(104, 104, 4) ;
     background-color: purple;
     color: gold;
     border-radius: 15px;
-    padding: 5px 5px;
+    padding: 10px 15px;
     text-align: center;
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: gold;
+    opacity: 1; /* Firefox */
+  }
+  
+
+.container input {
+
+    background-color: purple;
+    color: gold;
+    width: 30%;
+    border: 5px solid rgb(99, 99, 2);
+    padding: .6em;
+}
+
+.container button {
+    width: 31%;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#ran-fact-btn {
+    width: 100%;
+    margin-top: 1em;
+}
+
+
+
+
+
+
+
 
