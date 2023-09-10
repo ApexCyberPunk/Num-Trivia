@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
@@ -67,9 +68,35 @@ body {
     margin-top: 1em;
 }
 
+.fact {
+    background-color: purple;
+    box-shadow: 0 0 1.2em gold;
+    color: gold;
+    text-align: center;
+    font-size: 1.15em;
+    margin-top: 20px;
+    padding: 9px 15px;
+    border-radius: 20px;
+    white-space: normal;
+    word-break: break-word;
+    box-shadow: 2px 5px;
+    border: 3.5px solid rgb(99, 99, 2);
+    border-bottom:  1em solid rgb(99, 99, 2);
+    display: none;
 
+}
 
+.fact h2 {
+    font-size: 2.2em;
+    
+}
 
+.fact p {
+    font-size: 1.1em;
+    font-weight: 550;
+    line-height: 1.5em;
+    margin-top: .4em;
+}
 
 
 
